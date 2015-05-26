@@ -1,8 +1,17 @@
 body{
+	font-family: 'Open Sans','helvetica',arial,sans-serif;
+	font-weight: 300;
+	color: #62686f;
 	background-attachment: fixed;
 	background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+
+	color: #333;
 }
 
 .container{
@@ -13,7 +22,7 @@ body{
 
 .main-header{
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 0;
 	padding: 1px;
 
 	text-align: center;
@@ -41,4 +50,99 @@ body{
 	border-radius: 50%; /*999px;*/
 
 	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);	
+}
+
+nav{
+	text-align: center;
+	background-color: #333;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin: 15px 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.info-section {
+	background-color: #fff;
+	padding: 1px;
+	padding: 30px 60px;
+}
+
+.info-section header h2 {
+/*	margin-bottom: 30px;*/
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.info-section header h2:after{
+	content:"";
+	width: 80px;
+	display: block;
+	border-bottom: 3px solid black;
+	margin: auto;
+}
+
+.info-section__description {
+	margin-bottom: 60px;
+	font-style: italic;
+	text-align: center;
+}
+
+.whatido__skill-list{
+	list-style: none;
+	/*overflow: hidden;*/
+	text-align: center;
+}
+
+.whatido__skill-list:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.whatido__skill--code {
+	float: left;
+	width: 33%;
+	padding-top: 90px;
+	background-image: url(../img/skill-code.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.whatido__skill--design {
+	float: left;
+	width: 33%;
+	padding-top: 90px;
+	background-image: url(../img/skill-design.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.whatido__skill--product {
+	float: left;
+	width: 33%;
+	padding-top: 90px;
+	background-image: url(../img/skill-product.png);
+	background-repeat: no-repeat;
+	background-position: center top;
 }
