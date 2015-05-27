@@ -8,6 +8,14 @@ body{
 	background-position: center;
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 
@@ -145,4 +153,39 @@ nav ul li a:hover {
 	background-image: url(../img/skill-product.png);
 	background-repeat: no-repeat;
 	background-position: center top;
+}
+
+.education-experience__list{
+	list-style: none;
+}
+
+.education-experience__list li{
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.education-experience__list img{
+	float: left;
+	width: 200px;
+}
+
+.education-experience__list div{
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+.photos__list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.photos__list li{
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.photos__list li img{
+	width: 100%;
 }
