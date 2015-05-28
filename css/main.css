@@ -189,3 +189,50 @@ nav ul li a:hover {
 .photos__list li img{
 	width: 100%;
 }
+
+.get-in-touch__list{
+	list-style: none;
+	text-align: center;
+}
+
+.get-in-touch li{
+	float: left;
+	width: 25%;
+}
+
+.contact form{
+	margin: auto;
+	width: 40%;
+	position: relative;
+	text-align: center;
+}
+
+.contact input, .contact textarea{
+	border 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+	padding 8px;
+	margin: 10px auto;
+}
+
+.contact label{
+	position: absolute;
+	display: block;
+	width: 100%;
+	left: -110%;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.contact button {
+	width: 100%;
+	border: none;
+	border-radius: 9999px;
+
+	background: #ffd524;
+
+	cursor: pointer
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	color: #fff;
+	box-shadow: 0 3px 0 #daae1d;
+}
